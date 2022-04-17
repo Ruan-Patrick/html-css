@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: red;
+   grid-area: h;
+    
+}
+
+main{
+    background: black;
+    grid-area: m;
+    
+}
+
+aside{
+    background: blue;
+   grid-area: a;
+    
+}
+
+footer{
+    background: yellow;
+    grid-area: f;
+   
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr .5fr;
+     /* definir tamanho da coluna*/
+    grid-template-rows: 10vh 80vh 10vh;
+    /*definir tamanho da linha*/
+    grid-template-areas: "h h"
+                        "m a"
+                        "f f"
+                        /*definir area do grid*/
+}

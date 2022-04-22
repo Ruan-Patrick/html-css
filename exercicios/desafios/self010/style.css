@@ -68,11 +68,12 @@ main{
     background-color: white;
     min-width: 400px;
     max-width: 800px;
-   margin: auto;
-   border: .8px solid rgba(0, 0, 0, 0.178);
-   border-bottom-left-radius: 10px;
-   border-bottom-right-radius: 10px;
-   box-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.39);
+    margin: auto;
+    padding: 20px;
+    border: .8px solid rgba(0, 0, 0, 0.178);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.39);
    
 }
 main h1{
@@ -116,12 +117,28 @@ img.bugd{
     display: block;
     margin: auto;
 }
+
+div.video{
+    background-color: var(--cor05);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe{
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;}
+
 footer{
     background-color: var(--cor05);
     color: white;
     margin-top: 10px;
     text-align: center;
 }
+
 aside{
     background-image: linear-gradient(to right, var(--cor03), var(--cor04));
     padding-bottom: 5px;
@@ -137,6 +154,7 @@ aside > ul{
     columns: 2;
     
 }
+
 abbr{
     text-decoration: none;
 }

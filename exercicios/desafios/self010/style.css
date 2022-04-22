@@ -51,7 +51,6 @@ nav{
     background-color: var(--cor05);
     padding: 10px;
     text-align: center;
-    
 }
 
 nav > a{
@@ -107,7 +106,6 @@ main p{
 }
 
 main a{
-    
     text-decoration: none;
     font-weight: bold;
     color: var(--cor04);
@@ -142,7 +140,8 @@ position: absolute;
 top: 5%;
 left: 5%;
 width: 90%;
-height: 90%;}
+height: 90%;
+}
 
 footer{
     background-color: var(--cor05);
